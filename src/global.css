@@ -1,4 +1,4 @@
-﻿.sectionHeading {
+.sectionHeading {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -9,4 +9,9 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 30px;
+}
+@media (max-width: 800px) {
+    .wrapper {
+        display: block;
+    }
 }
